@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Command">
+		<Text>Расставить марки 1_4</Text>
+		<Description>Описание</Description>
+		<Assembly>DLLS\RoomTags.dll</Assembly>
+		<FullClassName>RoomTags.Main</FullClassName>
+		<ClientId>60f68d4a-db0f-40f1-99c4-95124333effa</ClientId>
+		<VendorId>ADSK</VendorId>
+	</AddIn>
+</RevitAddIns>
