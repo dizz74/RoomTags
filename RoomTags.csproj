@@ -54,6 +54,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="MyAddin.addin" />
+    <None Include="REVIT\Project.rvt" />
+    <None Include="REVIT\Марка_этаж_номер.rfa" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="REVIT\ФОП.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
