@@ -65,11 +65,7 @@ namespace RoomTags
                     return Result.Failed;
                 }
             
-            }
-
-
-            AskPlaceRooms();
-
+            } 
             
 
             roomTagType = new FilteredElementCollector(doc).
@@ -84,7 +80,7 @@ namespace RoomTags
                 return Result.Failed;
             }
 
-
+            AskPlaceRooms();
 
             PlaceTags();
 
